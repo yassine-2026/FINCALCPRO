@@ -1,0 +1,6 @@
+{
+  "name": "Global Financial Calculators Hub",
+  "description": "A high-performance global suite of financial calculators including Compound Interest, Loans, and ROI, optimized for SEO and AdSense.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
