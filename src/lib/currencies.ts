@@ -1,0 +1,22 @@
+export const defaultCurrencyByLang: Record<string, string> = {
+  ar: 'SAR',
+  en: 'USD',
+  fr: 'EUR',
+  es: 'EUR',
+  de: 'EUR',
+  it: 'EUR',
+  pt: 'BRL',
+  ru: 'RUB',
+  tr: 'TRY',
+  zh: 'CNY',
+  ja: 'JPY',
+  ko: 'KRW',
+  hi: 'INR',
+  id: 'IDR',
+  nl: 'EUR',
+  pl: 'PLN',
+  uk: 'UAH',
+  th: 'THB',
+  vi: 'VND',
+  ms: 'MYR'
+};
