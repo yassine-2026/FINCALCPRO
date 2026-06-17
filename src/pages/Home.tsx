@@ -77,6 +77,34 @@ export default function Home() {
         </Link>
       </section>
 
+      <section className="bg-slate-900 text-white rounded-3xl p-8 lg:p-12 pb-10 max-w-6xl mx-auto w-full relative overflow-hidden">
+        <div className="absolute top-0 right-0 p-12 opacity-5 pointer-events-none">
+          <TrendingUp className="w-64 h-64" />
+        </div>
+        <div className="relative z-10">
+          <h2 className="text-3xl font-black mb-2">{t('sc.pop')}</h2>
+          <p className="text-slate-400 mb-8 max-w-2xl">{t('home.desc')}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link to={`/${lang}/scenario/invest/10000/5/10`} className="bg-slate-800 hover:bg-indigo-600 transition-colors p-4 rounded-xl border border-slate-700 hover:border-indigo-500 flex flex-col gap-1">
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">{t('nav.comp')}</span>
+              <span className="font-semibold text-sm" dir="ltr">10,000 @ 5% / 10y</span>
+            </Link>
+            <Link to={`/${lang}/scenario/invest/50000/7/20`} className="bg-slate-800 hover:bg-indigo-600 transition-colors p-4 rounded-xl border border-slate-700 hover:border-indigo-500 flex flex-col gap-1">
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">{t('nav.comp')}</span>
+              <span className="font-semibold text-sm" dir="ltr">50,000 @ 7% / 20y</span>
+            </Link>
+            <Link to={`/${lang}/scenario/loan/250000/5.5/30`} className="bg-slate-800 hover:bg-rose-600 transition-colors p-4 rounded-xl border border-slate-700 hover:border-rose-500 flex flex-col gap-1">
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">{t('nav.loan')}</span>
+              <span className="font-semibold text-sm" dir="ltr">250,000 @ 5.5% / 30y</span>
+            </Link>
+            <Link to={`/${lang}/scenario/loan/50000/6/5`} className="bg-slate-800 hover:bg-rose-600 transition-colors p-4 rounded-xl border border-slate-700 hover:border-rose-500 flex flex-col gap-1">
+              <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">{t('nav.loan')}</span>
+              <span className="font-semibold text-sm" dir="ltr">50,000 @ 6% / 5y</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <AdUnit />
       
     </div>

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourglobaldomain.com/sitemap.xml
+Sitemap: https://fincalcpro.com/sitemap.xml
+Sitemap: https://fincalcpro.com/sitemap-scenarios.xml

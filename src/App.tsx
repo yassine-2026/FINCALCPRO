@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import CompoundInterest from './pages/CompoundInterest';
 import LoanCalculator from './pages/LoanCalculator';
 import RoiCalculator from './pages/RoiCalculator';
+import ScenarioInvest from './pages/ScenarioInvest';
+import ScenarioLoan from './pages/ScenarioLoan';
 import PrivacyPolicy from './pages/Legal/PrivacyPolicy';
 import Terms from './pages/Legal/Terms';
 import Disclaimer from './pages/Legal/Disclaimer';
@@ -38,6 +40,8 @@ export default function App() {
             <Route path="compound-interest" element={<CompoundInterest />} />
             <Route path="loan-calculator" element={<LoanCalculator />} />
             <Route path="roi-calculator" element={<RoiCalculator />} />
+            <Route path="scenario/invest/:amount/:rate/:years" element={<ScenarioInvest />} />
+            <Route path="scenario/loan/:amount/:rate/:years" element={<ScenarioLoan />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="terms" element={<Terms />} />
             <Route path="disclaimer" element={<Disclaimer />} />
